@@ -46,12 +46,97 @@ export default function index() {
     </div>
   </div>
 </nav>
-
-    <div className='text-center'>
-      <Image src="/hutao.jfif" class="img-thumbnail" alt="hutao" width={200} height={200}/>     
-      </div>
-
+<header>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="/hutao.jfif" class="d-block w-100" alt="hutao" width={50} height={500}/>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="/hutao2.jpg" class="d-block w-100" alt="hutao2" width={50} height={500} />
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="/hutao3.jpg" class="d-block w-100" alt="hutao3" width={50} height={500} />
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+</br>
+</header>
     <div className='text-center'><button type="button" class="btn btn-danger" >HU TAO</button></div>
+
+    <br>
+</br>
+
+    <div class="row" >
+      <div class="col-lg-4">
+      <img src="/hutao.jfif" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
+        <h2 class="fw-normal">Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+      <img src="/hutao2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
+        <h2 class="fw-normal">Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+      <img src="/hutao3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
+        <h2 class="fw-normal">Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
+    </div>
+<br>
+</br>
+    
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"/>
+        <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
     </>
   )
 }
