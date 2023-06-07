@@ -48,9 +48,6 @@ export default function about() {
   </div>
 </nav>
 
-</header>
-
-
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={3000}>
@@ -69,7 +66,7 @@ export default function about() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-
+</header>
 <br />
 <br />
 <br /> 
