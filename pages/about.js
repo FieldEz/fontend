@@ -22,7 +22,7 @@ export default function about() {
           <a class="nav-link active" aria-current="page" href="/.">หน้าหลัก</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">เกี่ยวกับ</a>
+          <a class="nav-link" href="about">เกี่ยวกับ</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,26 +45,47 @@ export default function about() {
 <header>
 <div class="row" >
       <div class="col-lg-4">
-      <img src="/hutao.jfif" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
-        <h2 class="fw-normal">Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      <img src="/j1.jpg" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
+        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <p>จิตวิทยาพลิกชีวิต.</p>
+        <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
       <div class="col-lg-4">
-      <img src="/hutao2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
-        <h2 class="fw-normal">Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      <img src="/j2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
+        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <p>โลกจิต.</p>
+        <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
       <div class="col-lg-4">
-      <img src="/hutao3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
-        <h2 class="fw-normal">Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      <img src="/j3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
+        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <p>จิตวิทยาสายดาร์ก.</p>
+        <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
     </div>
 <br>
 </br>
+
+<div class="row" >
+      <div class="col-lg-4">
+      <img src="/j1.jpg" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
+        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <p>จิตวิทยาพลิกชีวิต.</p>
+        <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
+      </div>
+      <div class="col-lg-4">
+      <img src="/j2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
+        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <p>โลกจิต.</p>
+        <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
+      </div>
+      <div class="col-lg-4">
+      <img src="/j3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
+        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <p>จิตวิทยาสายดาร์ก.</p>
+        <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
+      </div>
+    </div>
 <br>
 </br>
 </header>
@@ -72,26 +93,6 @@ export default function about() {
     <br>
 </br>
 
-    <div class="row" >
-      <div class="col-lg-4">
-      <img src="/hutao.jfif" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
-        <h2 class="fw-normal">Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-      </div>
-      <div class="col-lg-4">
-      <img src="/hutao2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
-        <h2 class="fw-normal">Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-      </div>
-      <div class="col-lg-4">
-      <img src="/hutao3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
-        <h2 class="fw-normal">Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-      </div>
-    </div>
 <br>
 </br>
     

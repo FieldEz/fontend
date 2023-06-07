@@ -22,7 +22,7 @@ export default function index() {
           <a class="nav-link active" aria-current="page" href="/.">หน้าหลัก</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">เกี่ยวกับ</a>
+          <a class="nav-link" href="about">เกี่ยวกับ</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
