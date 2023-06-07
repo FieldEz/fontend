@@ -50,23 +50,27 @@ export default function about() {
 <div class="row" >
       <div class="col-lg-4">
       <img src="/j1.jpg" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
-        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <h2 class="fw-normal">จิตวิทยาพลิกชีวิต</h2>
         <p>จิตวิทยาพลิกชีวิต.</p>
         <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
       <div class="col-lg-4">
       <img src="/j2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
-        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <h2 class="fw-normal">โลกจิต</h2>
         <p>โลกจิต.</p>
         <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
       <div class="col-lg-4">
       <img src="/j3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
-        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+        <h2 class="fw-normal">จิตวิทยาสายดาร์ก</h2>
         <p>จิตวิทยาสายดาร์ก.</p>
         <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
     </div>
+<br>
+</br>
+<br>
+</br>
 <br>
 </br>
 
