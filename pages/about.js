@@ -72,7 +72,6 @@ export default function index() {
 <br>
 </br>
 </header>
-    <div className='text-center'><button type="button" class="btn btn-danger" >HU TAO</button></div>
 
     <br>
 </br>
