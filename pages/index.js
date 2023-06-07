@@ -30,7 +30,7 @@ export default function index() {
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">หน้าร้าน</a></li>
-            <li><a class="dropdown-item" href="#">ติดต่อ</a></li>
+            <li><a class="dropdown-item" href="contact">ติดต่อ</a></li>
             <li><hr class="dropdown-divider"/></li>
           </ul>
         </li>
