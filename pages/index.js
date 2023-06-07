@@ -30,10 +30,10 @@ export default function index() {
             บริการของเรา
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">ขายไก่</a></li>
-            <li><a className="dropdown-item" href="#">ขายหมา</a></li>
+            <li><a className="dropdown-item" href="#">ซื้อออนไลน์</a></li>
+            <li><a className="dropdown-item" href="#">ตรวจสอบหนังสือ</a></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">ขายคน</a></li>
+            <li><a className="dropdown-item" href="#">สั่งจองหนังสือ</a></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -53,10 +53,10 @@ export default function index() {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={1000}>
-      <img src="/gtr1.jpg" className="d-block w-100" alt="gtr1" />
+      <img src="/Book1.jpg" className="d-block w-100" alt="gtr1" />
     </div>
     <div className="carousel-item" data-bs-interval={1000}>
-      <img src="/gtr2.jpg" className="d-block w-100" alt="gtr2" />
+      <img src="/Book2.jpeg" className="d-block w-100" alt="gtr2" />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
