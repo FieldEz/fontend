@@ -47,27 +47,28 @@ export default function index() {
   </div>
 </nav>
 <header>
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
-      <img src="/hutao.jfif" class="d-block w-100" alt="hutao" width={50} height={500}/>
+<div class="row" >
+      <div class="col-lg-4">
+      <img src="/hutao.jfif" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
+        <h2 class="fw-normal">Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+      <img src="/hutao2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
+        <h2 class="fw-normal">Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+      <img src="/hutao3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
+        <h2 class="fw-normal">Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="/hutao2.jpg" class="d-block w-100" alt="hutao2" width={50} height={500} />
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="/hutao3.jpg" class="d-block w-100" alt="hutao3" width={50} height={500} />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+<br>
+</br>
 <br>
 </br>
 </header>
