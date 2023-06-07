@@ -62,7 +62,7 @@ export default function contact() {
     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">ติดต่อเราได้ที่</h1>
-        <p class="col-md-8 fs-4">Facebook : Field Chayatad</p>
+        <p class="col-md-8 fs-4">Facebook : </p>
         <p class="col-md-8 fs-4">Gmail : chayatadforwork@gmail.com</p>
         <p class="col-md-8 fs-4">Contact Number : 099-9999999</p>
         <button class="btn btn-primary btn-lg" type="button">กดเพื่อเปิดแผนที่</button>
