@@ -7,13 +7,13 @@ export default function about() {
   return (
     <>
     <Head>
-      <title>jett</title>
+      <title>BOOKFORLIFE</title>
     </Head>
   
   <header>
 <nav className="navbar navbar-expand-lg bg-danger">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">JETZ</a>
+    <a className="navbar-brand" href="#">BOOKFORLIFE</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
@@ -89,7 +89,7 @@ export default function about() {
       <p><a className="btn btn-secondary" href="https://www.nissan.co.th/vehicles/new-vehicles/new-gt-r.html">View details »</a></p>
     </div>{/* /.col-lg-4 */}
     <div className="col-lg-4">
-    <img src="/j5.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={160} height={140} />
+    <img src="/j5.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={160} height={140} />
       <h2 className="fw-normal">เพราะเป็นวัยรุ่นจึงเจ็บปวด</h2>
       <p>"เพราะเป็นวัยรุ่นจึงเจ็บปวด" เปรียบเสมือนคู่มือในการดำเนินชีวิตของวัยรุ่นที่กำลังทรมานใจ...ว่างเปล่า...หวั่นไหว...เปลี่ยวเหงา...โดดเดี่ยว...เพราะเป็นวัยรุ่นคนหนึ่ง ถูกเขียนขึ้นมาสำหรับวัยรุ่นที่ยังคงสับสนเพียงเพราะเป็นวัยรุ่นตัวคนเดียว ไม่มีคนที่คอยให้คำปรึกษา หรือไม่กล้าปรึกษาคนอื่นๆ หนังสือเล่มนี้อาจไม่มีคำตอบสำเร็จรูปให้คุณภายในสามนาที แต่ยืนยันว่ามีคำตอบปลายเปิดให้คุณได้ค้นหาว่าจะผ่านช่วงวัยเรียน วัยทำงาน และวัยผู้ใหญ่ เพื่อสร้างฝันให้เป็นจริงได้อย่างไร</p>
       <p><a className="btn btn-secondary" href="https://www.nissan.co.th/vehicles/new-vehicles/new-gt-r.html">View details »</a></p>
