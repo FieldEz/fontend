@@ -42,6 +42,10 @@ export default function about() {
     </div>
   </div>
 </nav>
+
+<br>
+</br><br>
+</br>
 <header>
 <div class="row" >
       <div class="col-lg-4">
