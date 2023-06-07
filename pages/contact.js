@@ -74,10 +74,10 @@ export default function contact() {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={3000}>
-      <img src="/ab1.jpg" className="d-block w-100" alt="gtr1" />
+      <img src="/ab4.jpg" className="d-block w-100" alt="gtr1" />
     </div>
     <div className="carousel-item" data-bs-interval={3000}>
-      <img src="/ab2.jpg" className="d-block w-100" alt="gtr2" />
+      <img src="/ab3.jfif" className="d-block w-100" alt="gtr2" />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -95,15 +95,17 @@ export default function contact() {
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 text-bg-dark rounded-3">
-          <h2>Change the background</h2>
-          <p>Swap the background-color utility and add a .text-* color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
+          <h2>ติดต่อสอบถามเพิ่มเติม</h2>
+          <p>ประกาศออกมาอย่างเป็นทางการแล้ว สำหรับงานหนังสือที่เหล่านักอ่านต่างรอคอยอย่าง “สัปดาห์หนังสือแห่งชาติ ครั้งที่ 51” และ “สัปดาห์หนังสือนานาชาติ ครั้งที่ 21” โดยปีนี้จะจัดขึ้นระหว่างวันที่ 30 มีนาคม – 9 เมษายน 2566 ณ ฮอลล์ 5-7 ชั้น LG ศูนย์การประชุมแห่งชาติสิริกิติ์</p>
+          <button class="btn btn-outline-light" type="button">กดเพื่อไป</button>
         </div>
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-          <h2>Add borders</h2>
-          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <h2>งานหนังสือปี 2566</h2>
+          <p>ส่วนในวันที่ 2 - 9 เมษายน 2566 จะกลับมาเปิดให้บริการปกติ คือ 10.00-21.00 น.
+
+สำหรับธีมงานในครั้งนี้ คือ “Bookfluencer” สะท้อนความนิยมของเหล่าอินฟลูเอนเซอร์ หรือกลุ่มคนที่มีอิทธิพลต่อความคิดและการตัดสินใจในยุคนี้ เพื่อสร้างแรงดึงดูดให้ทุกคนเป็นคนใหม่ในเวอร์ชันที่ดีกว่าและสมาร์ทขึ้นผ่านการอ่านหนังสือและเป็นอินฟลูเอนเซอร์สายอ่านคนใหม่</p>
           <button class="btn btn-outline-secondary" type="button">Example button</button>
         </div>
       </div>
