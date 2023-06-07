@@ -4,39 +4,35 @@ import Image from 'next/image';
 
 import'bootstrap/dist/css/bootstrap.css';
 
-export default function index() {
+export default function about() {
   return (
     <>
     <Head>
-      <title>NExtJs</title>
+      <title>หนังสือ</title>
     </Head>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark" >
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Drugs Dealler</a>
+    <a class="navbar-brand" href="#">หนังสือสายฮีล</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/.">บ้าน</a>
+          <a class="nav-link active" aria-current="page" href="/.">หน้าหลัก</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">เชื่อม</a>
+          <a class="nav-link" href="#">เกี่ยวกับ</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ล่วงลง
+            เพิ่มเติม
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">การกระทำ</a></li>
-            <li><a class="dropdown-item" href="#">การกระทำอีกอัน</a></li>
+            <li><a class="dropdown-item" href="#">หน้าร้าน</a></li>
+            <li><a class="dropdown-item" href="#">ติดต่อ</a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">อะไรสักอย่างตรงนี้</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">ปิดไปแล้ว</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
