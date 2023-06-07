@@ -72,20 +72,20 @@ export default function about() {
 
 <div class="row" >
       <div class="col-lg-4">
-      <img src="/j1.jpg" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
-        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+      <img src="/j4.jfif" class="bd-placeholder-img rounded-circle" alt="hutao"  width={200} height={200}/>
+        <h2 class="fw-normal">อย่าเป็นคนเก่งที่คุยไม่เป็น</h2>
         <p>จิตวิทยาพลิกชีวิต.</p>
         <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
       <div class="col-lg-4">
-      <img src="/j2.jpg" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
-        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+      <img src="/j5.png" class="bd-placeholder-img rounded-circle" alt="hutao2" width={200} height={200} />
+        <h2 class="fw-normal">เพราะเป็นวัยรุ่นจึงเจ็บปวด</h2>
         <p>โลกจิต.</p>
         <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
       <div class="col-lg-4">
-      <img src="/j3.jpg" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
-        <h2 class="fw-normal">หนังสือแนะนำ</h2>
+      <img src="/j6.jfif" class="bd-placeholder-img rounded-circle" alt="hutao3" width={200} height={200} />
+        <h2 class="fw-normal">ชีวิตติดปีกด้วยศิลปะ</h2>
         <p>จิตวิทยาสายดาร์ก.</p>
         <p><a class="btn btn-secondary" href="#">รายละเอียด »</a></p>
       </div>
