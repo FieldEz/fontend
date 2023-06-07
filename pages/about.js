@@ -51,10 +51,6 @@ export default function about() {
 </header>
 
 
-<br />
-<br />
-<br /> 
-
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={3000}>
