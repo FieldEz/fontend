@@ -10,7 +10,7 @@
     });
 
     export default function handler(req, res) {
-      const { firstname,lastname,username,status,password } = req.body
+      const { studentid,firstname,lastname,username,status,password } = req.body
 
 
       if (req.method === 'GET') {
@@ -23,9 +23,9 @@
         
       } else if (req.method === 'POST') {
       const result = connection.query("INSERT INTO tbl_users SET ?",{
-        firstname, lastname, username, status, password,
+        studentid,firstname, lastname, username, status, password,
       });
-      return res.status(200).json({...req.body,id: result.insertid});
+      return res.status(200).json({"status": "ok","message": req.body, "id": result.insertid});
 
 
 
