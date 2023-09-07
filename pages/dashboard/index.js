@@ -65,7 +65,7 @@ export default function Component({ posts }) {
         <div className="container">
           <div className="row">
           </div>
-          <div align="right">    <Link href="/dashboard/datauser" > <button className="btn btn-success text-n">Add Data</button> </Link>{/* ปุ่ม Delete */} </div>
+          <div align="right">    <Link href="/dashboard/user/datauser" > <button className="btn btn-success text-n">Add Data</button> </Link>{/* ปุ่ม Delete */} </div>
           <br></br>
           <div className="row">
             <div className="col">
