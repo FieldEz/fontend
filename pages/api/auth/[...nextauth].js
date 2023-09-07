@@ -22,7 +22,7 @@ export const authOptions = {
         // e.g. return { id: 1, name: 'J Smith', email: 'jsmith@example.com' }
         // You can also use the `req` object to obtain additional parameters
         // (i.e., the request IP address)
-        const res = await fetch("https://fontend-q39t-aivzk2z66-fieldez.vercel.app/api/login", {
+        const res = await fetch("https://fontend-q39t.vercel.app/api/login", {
           method: 'POST',
           body: JSON.stringify(credentials),
           headers: { "Content-Type": "application/json" }

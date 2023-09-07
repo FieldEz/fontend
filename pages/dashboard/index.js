@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Swal from 'sweetalert2';
 export async function getServerSideProps() {
-  const res = await fetch('https://fontend-q39t-aivzk2z66-fieldez.vercel.app/api/users')
+  const res = await fetch('https://fontend-q39t.vercel.app/api/users')
   const posts = await res.json()
 
   return {
@@ -32,7 +32,7 @@ export default function Component({ posts }) {
   
     if (result.isConfirmed) {
       // Perform the deletion using fetch
-      await fetch('https://fontend-q39t-aivzk2z66-fieldez.vercel.app/api/users?id=' + id, {
+      await fetch('https://fontend-q39t.vercel.app/api/users?id=' + id, {
         method: 'DELETE',
       });
   
