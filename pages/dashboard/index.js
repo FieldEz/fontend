@@ -93,7 +93,7 @@ export default function Component({ posts }) {
                       <td>{post.password}</td>
                       <td>{post.status}</td>
                       <td>
-                      <Link href={`/dashboard/edit/frmEdit?id=${post.id}`} className="btn btn-warning">
+                      <Link href={`/dashboard/user/edit/frmEdit?id=${post.id}`} className="btn btn-warning">
                             <i className="bi bi-pencil-square">EDIT</i>
                           </Link>{" "}
                           <button className="btn btn-danger" onClick={() => handleDelete(post.id)}>
