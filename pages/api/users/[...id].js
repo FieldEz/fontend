@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
       } catch(error){
         return res.status(500).json({ message: error.messege });
       }
-
+      
     }else{
   connection.query(
     'SELECT * FROM `tbl_users` WHERE `id` = ? ',[id],
