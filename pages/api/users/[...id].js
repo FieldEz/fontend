@@ -12,10 +12,7 @@ const connection = mysql.createConnection({
     const { id } = req.query
     if (req.method  === "DELETE"){
       try{
-        const result = connection.query("UPDATE tbl_users SET ? WHERE id = ?",[
-          req.body,
-          req.body.id,
-        ]);
+        const result = connection.query("DELETE FROM tbl_users WHERE id = ?",[req.query.id]);
         return res.status(200).json({...req.body,id: result.insertid});
       } catch(error){
         return res.status(500).json({ message: error.messege });
