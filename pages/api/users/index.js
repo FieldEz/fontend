@@ -4,13 +4,14 @@
 
   const connection = mysql.createConnection({
     host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
     user: process.env.DB_USER,
     password: process.env.DB_PASS,
     database: process.env.DB_DATABASE
     });
 
     export default function handler(req, res) {
-      const { studentid,firstname,lastname,username,status,password } = req.body
+      const { studentid, firstname, lastname, username, password, status } = req.body
 
 
       if (req.method === 'GET') {
