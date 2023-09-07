@@ -20,13 +20,24 @@ export default function Component({ posts }) {
   const router = useRouter();
   
   const handleDelete = async (id) => {
-
+    const result = await Swal.fire({
+      title: 'Are you sure?',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, delete it!'
+    });
+  
+     if (result.isConfirmed) {
       // Perform the deletion using fetch
-       await fetch('https://fontend-q39t.vercel.app/api/users/' + id, {
+      fetch('https://fontend-q39t.vercel.app/api/users/' + id, {
         method: 'DELETE',
       });
   
       return router.push('/dashboard');
+     }
     };
 
   if (session) {
