@@ -65,7 +65,7 @@ export default function Component({ posts }) {
         <div className="container">
           <div className="row">
           </div>
-          <div align="right">    <Link href="/dashboard/user/add/datauser" > <button className="btn btn-success text-n">Add Data</button> </Link>{/* ปุ่ม Delete */} </div>
+          <div align="right">    <Link href="/dashboard/user/add/" > <button className="btn btn-success text-n">Add Data</button> </Link>{/* ปุ่ม Delete */} </div>
           <br></br>
           <div className="row">
             <div className="col">
@@ -93,7 +93,7 @@ export default function Component({ posts }) {
                       <td>{post.password}</td>
                       <td>{post.status}</td>
                       <td>
-                      <Link href={`/dashboard/user/edit/frmEdit?id=${post.id}`} className="btn btn-warning">
+                      <Link href={`/dashboard/user/edit/${post.id}`} className="btn btn-warning">
                             <i className="bi bi-pencil-square">EDIT</i>
                           </Link>{" "}
                           <button className="btn btn-danger" onClick={() => handleDelete(post.id)}>

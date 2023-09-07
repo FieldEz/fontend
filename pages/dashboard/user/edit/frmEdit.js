@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 
 export async function getServerSideProps(req) {
-    const id = req.query;
+    const id = req.query
     const res = await fetch('https://fontend-q39t.vercel.app/api/users?id=' + id, {
       method: 'GET',
     })
