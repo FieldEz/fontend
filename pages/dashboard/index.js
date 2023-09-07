@@ -1,9 +1,9 @@
 import { useSession, signIn, signOut } from "next-auth/react"
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Swal from 'sweetalert2';
+//import Swal from 'sweetalert2';
 export async function getServerSideProps() {
-  const res = await fetch('https://fontend-q39t.vercel.app/api/users')
+  const res = await fetch('https://fontend-q39t.vercel.app/api/users/')
   const posts = await res.json()
 
   return {
@@ -20,34 +20,14 @@ export default function Component({ posts }) {
   const router = useRouter();
   
   const handleDelete = async (id) => {
-    const result = await Swal.fire({
-      title: 'Are you sure?',
-      text: "You won't be able to revert this!",
-      icon: 'warning',
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, delete it!'
-    });
-  
-    if (result.isConfirmed) {
+
       // Perform the deletion using fetch
-      await fetch('https://fontend-q39t.vercel.app/api/users?id=' + id, {
+       await fetch('https://fontend-q39t.vercel.app/api/users/' + id, {
         method: 'DELETE',
       });
   
-      // Reload the page
-      router.reload('/dashboard');
-  
-      // Show success message
-      Swal.fire(
-        'Deleted!',
-        'Your file has been deleted.',
-        'success'
-      );
-    }
-  };
-
+      return router.push('/dashboard');
+    };
 
   if (session) {
     return (
@@ -117,4 +97,5 @@ export default function Component({ posts }) {
       <button onClick={() => signIn()}>Sign in</button>
     </>
   )
-}
+  }
+

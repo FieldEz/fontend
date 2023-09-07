@@ -2,30 +2,16 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-export async function getServerSideProps(req) {
-    const id = req.query
-    const res = await fetch('https://fontend-q39t.vercel.app/api/users?id=' + id, {
-      method: 'GET',
-    })
-    const posts = await res.json();
-  
-    return {
-      props: {
-        posts,
-      },
-    };
-  }
 
 export default function Component({ posts }) {
   const { data: session } = useSession()
   const router = useRouter();
 
   //----------------------start handleSubmit--------------------------
-  const handleUpdate = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const jsonData = {
-     id: data.get('txt_studentid'),
       studentid: data.get('txt_studentid'),
       firstname: data.get('txt_firstname'),
       lastname: data.get('txt_lastname'),
@@ -39,8 +25,8 @@ export default function Component({ posts }) {
     console.log("username:", jsonData.username);
     console.log("password:", jsonData.password);
     console.log("status:", jsonData.status);
-    fetch('https://fontend-q39t.vercel.app/api/users', {
-        method: 'PUT', // or 'PUT'
+    fetch('https://fontend-q39t.vercel.app/api/users/', {
+        method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
         },
@@ -78,21 +64,7 @@ export default function Component({ posts }) {
         <h5 className="card-title"><i className="bi bi-person-plus"></i> Add Member</h5>
       </div>
       <div className="card-body text-left">
-           <form onSubmit={handleUpdate}>
-           {posts.users.map((post, i) => (
-            <>
-
-<div className="form-group">
-            <label></label>
-            <input
-              type="hidden"
-              name="txt_studentid"
-              id="txt_studentid"
-              className="form-control"
-              defaultValue={post.id}
-            />
-          </div>
-
+           <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Student ID:</label>
             <input
@@ -100,8 +72,6 @@ export default function Component({ posts }) {
               name="txt_studentid"
               id="txt_studentid"
               className="form-control"
-              defaultValue={post.id}
-              disabled
             />
           </div>
           <div className="form-group">
@@ -111,8 +81,6 @@ export default function Component({ posts }) {
               name="txt_firstname"
               id="txt_firstname"
               className="form-control"
-              defaultValue={post.firstname}
-              required
             />
           </div>
           <div className="form-group">
@@ -122,8 +90,6 @@ export default function Component({ posts }) {
               name="txt_lastname"
               id="txt_lastname"
               className="form-control"
-              defaultValue={post.lastname}
-              required
             />
           </div>
           <div className="form-group">
@@ -133,19 +99,15 @@ export default function Component({ posts }) {
               name="txt_username"
               id="txt_username"
               className="form-control"
-              defaultValue={post.username}
-              required
             />
           </div>
           <div className="form-group">
             <label>Password:</label>
             <input
-              type="text"
+              type="password"
               name="txt_password"
               id="txt_password"
               className="form-control"
-              defaultValue={post.password}
-              required
             />
           </div>
           <div className="form-group">
@@ -155,23 +117,17 @@ export default function Component({ posts }) {
               name="txt_status"
               id="txt_status"
               className="form-control"
-              defaultValue={post.status}
-              placeholder="Status"
-              required
             />
           </div>
           <br></br>
           <tr>
             <td>
           <button type="submit" className="btn btn-success">SAVE</button> {/* */}
-          <Link href="./" >  <button type="submit" className="btn btn-warning">Back</button></Link>{/* */}
+          <Link href="/dashboard" >  <button type="submit" className="btn btn-warning">Back</button></Link>{/* */}
           </td>
           </tr>
-          </>
-                    ))}
           </form>
       </div>
-      
       
     </div>
       </>

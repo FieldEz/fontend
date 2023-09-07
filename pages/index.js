@@ -43,6 +43,7 @@ export default function index() {
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button className="btn btn-outline-dark" type="submit">ค้นหา</button>
+        <Link className="nav-link"  href="/dashboard"><button className="btn btn-outline-dark" type="submit" > เข้าสู่ระบบ</button></Link>
       </form>
     </div>
   </div>
