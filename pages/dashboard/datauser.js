@@ -25,7 +25,7 @@ export default function Component({ posts }) {
     console.log("username:", jsonData.username);
     console.log("password:", jsonData.password);
     console.log("status:", jsonData.status);
-    fetch('https://fontend-q39t-aivzk2z66-fieldez.vercel.app/api/users', {
+    fetch('https://fontend-q39t.vercel.app/api/users', {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
