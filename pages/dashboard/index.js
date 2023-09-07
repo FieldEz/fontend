@@ -36,7 +36,7 @@ export default function Component({ posts }) {
 <nav className="navbar navbar-light bg-warning">
   <div className="container-fluid">
   <div className="col">
-  <div align="right"> Signed in as {session.user.username} {session.user.lastname} {session.user.status}  <Link href="/dashboard/user/add/" > <button  className="btn btn-danger" onClick={() => signOut()}>Sign out</button></Link> </div>
+  <div align="right"> Signed in as {session.user.firstname} {session.user.lastname} {session.user.status}  <Link href="./" > <button  className="btn btn-danger" onClick={() => signOut()}>Sign out</button></Link> </div>
   </div>
   </div>
 </nav>
